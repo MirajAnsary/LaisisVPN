@@ -145,11 +145,13 @@ a {
 .contact {
   max-width: 1140px;
   height: 200px;
-  padding: 0 15px;
+  margin: 0 auto;
+  padding: 0 40px;
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 130px;
   align-items: center;
   box-shadow: 1px 4px 10px rgb(221, 220, 220);
 }
@@ -370,8 +372,8 @@ a {
 }
 
 .box {
-  max-width: 400px;
-  min-height: 230px;
+  max-width: 332px;
+  min-height: 214px;
   border: 2px solid grey;
   border-radius: 10px;
   padding: 30px;
@@ -486,6 +488,17 @@ footer > .container > .row {
   flex-direction: column;
   gap: 10px;
 }
+@media screen and (max-width: 1257px) {
+  .contact {
+    gap: 100px;
+  }
+}
+@media screen and (max-width: 1257px) {
+  .contact {
+    gap: 80px;
+  }
+}
+
 @media screen and (max-width: 1170px) {
   .navbar {
     flex-wrap: wrap;
@@ -600,6 +613,11 @@ footer > .container > .row {
     min-width: 55%;
   }
 }
+@media screen and (max-width: 1056px) {
+  .contact {
+    gap: 60px;
+  }
+}
 @media screen and (max-width: 1015px) {
   .provide {
     flex-direction: column;
@@ -610,11 +628,34 @@ footer > .container > .row {
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 976px) {
+  .contact {
+    gap: 50px;
+  }
+}
 
 @media screen and (max-width: 945px) {
   .contact-section {
     padding-top: 60px !important;
     padding: 0 100px;
+  }
+  .contact {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .contact {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 897px) {
+  .contact {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 816px) {
+  .contact {
+    gap: 10px;
   }
 }
 @media screen and (max-width: 612px) {
@@ -629,8 +670,7 @@ footer > .container > .row {
     padding: 0 30px;
   }
   .contact {
-    flex-direction: column;
-    align-items: center;
+    padding: 5px 40px;
   }
   .vertical {
     display: none;
@@ -804,7 +844,7 @@ footer > .container > .row {
     margin-block: 10px;
   }
   .big {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
   }
   .sub-btn {
@@ -812,4 +852,19 @@ footer > .container > .row {
     align-items: center;
     padding: 18px 44px;
   }
+  .partners {
+    gap: 10px;
+  }
+  .socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .about {
+    font-size: 12px;
+  }
+  /* .contact {
+    padding: 5px 10px;
+  } */
 }
