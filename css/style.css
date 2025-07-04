@@ -416,6 +416,7 @@ main {
 }
 .subscription-section {
   margin: 0 auto;
+  padding-block: 50px;
 }
 .subscription {
   max-width: 1140px;
@@ -424,9 +425,9 @@ main {
   justify-content: space-between;
   align-items: center;
   box-shadow: 1px 4px 10px rgb(221, 220, 220);
-  position: relative;
+  /* position: relative; */
   padding: 0 70px;
-  bottom: -134px;
+  /* bottom: -134px; */
   flex-wrap: wrap;
 }
 
@@ -454,7 +455,7 @@ main {
 /* footer-section */
 footer {
   background-color: #f8f8f8;
-  margin-top: 180px;
+  /* margin-top: 180px; */
 }
 
 footer > .container > .row {
